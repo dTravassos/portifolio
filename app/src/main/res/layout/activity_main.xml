@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.diogotravassos.portiflio.MainActivity">
+
+    <TextView
+        android:id="@+id/app_tittle"
+        style="@style/SimpleTitle"
+        android:text="@string/app_title" />
+
+    <Button
+        android:id="@+id/app_button_movies"
+        android:text="@string/app_button_movies"
+        android:layout_below="@id/app_tittle"
+        style="@style/HomeButton"
+         />
+
+    <Button
+        android:id="@+id/app_button_stack"
+        android:text="@string/app_button_stack"
+        android:layout_below="@id/app_button_movies"
+        style="@style/HomeButton"
+         />
+
+    <Button
+        android:id="@+id/app_button_build"
+        android:text="@string/app_button_build"
+        android:layout_below="@id/app_button_stack"
+        style="@style/HomeButton"
+        />
+
+    <Button
+        android:id="@+id/app_button_material"
+        android:text="@string/app_button_material"
+        android:layout_below="@id/app_button_build"
+        style="@style/HomeButton"
+        />
+
+    <Button
+        android:id="@+id/app_button_ubiquitous"
+        android:text="@string/app_button_ubiquitous"
+        android:layout_below="@id/app_button_material"
+        style="@style/HomeButton"
+        />
+
+    <Button
+        android:id="@+id/app_button_capstone"
+        android:text="@string/app_button_capstone"
+        android:layout_below="@id/app_button_ubiquitous"
+        style="@style/HomeButton"
+        />
+
+</RelativeLayout>
